@@ -1,0 +1,143 @@
+html {
+    font-size: 14px;
+    position: relative;
+    background-color: black;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: black;
+}
+#movie-header {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between; /* pushes children to edges */
+    align-items: center;
+    background-color: #000f;
+    color: white;
+}
+#CoverArt1, #CoverArt2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 60%;
+    max-width: 70px;
+    max-height: 80px;
+}
+/*#CoverArt {
+
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 90%;
+    max-width: 400px;
+
+}*/
+#Information {
+    max-width: 800px;
+    background: #111;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    justify-self: center;
+
+}
+#Link {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+
+}
+#Link:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+#Rating {
+    display: inline-block;
+    background: #f5c518;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+}
+#Trailer-Section {
+    display: block;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+#Cast {
+    display: flex;
+    max-width: 800px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#Actors-Header {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #f5c518;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #f5c518;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#Actors {
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#Actors li {
+    background: #222;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, background 0.2s ease;
+    cursor: pointer;
+
+}
+
+#Actors li:hover {
+    background: #333;
+    transform: scale(1.05);
+    color: #f5c518;
+}
+
+body {
+  width: 100%;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: #800000;
+}
