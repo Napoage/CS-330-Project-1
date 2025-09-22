@@ -128,10 +128,16 @@ html {
 
 }
 
-#Actors li:hover {
-    background: #333;
-    transform: scale(1.05);
-    color: #f5c518;
+#Actors li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block; /* makes the whole li clickable */
+    transition: color 0.2s ease;
+}
+
+#Actors li a:hover {
+    color: #f5c518; /* gold on hover */
 }
 
 body {
